@@ -1,0 +1,17 @@
+D:\GIT\Triage\AccesoDatos\obj\Debug\net8.0\AccesoDatos.csproj.AssemblyReference.cache
+D:\GIT\Triage\AccesoDatos\obj\Debug\net8.0\AccesoDatos.GeneratedMSBuildEditorConfig.editorconfig
+D:\GIT\Triage\AccesoDatos\obj\Debug\net8.0\AccesoDatos.AssemblyInfoInputs.cache
+D:\GIT\Triage\AccesoDatos\obj\Debug\net8.0\AccesoDatos.AssemblyInfo.cs
+D:\GIT\Triage\AccesoDatos\obj\Debug\net8.0\AccesoDatos.csproj.CoreCompileInputs.cache
+C:\emi\Software\Triage\Triage\AccesoDatos\bin\Debug\net8.0\AccesoDatos.deps.json
+C:\emi\Software\Triage\Triage\AccesoDatos\bin\Debug\net8.0\AccesoDatos.dll
+C:\emi\Software\Triage\Triage\AccesoDatos\bin\Debug\net8.0\AccesoDatos.pdb
+C:\emi\Software\Triage\Triage\AccesoDatos\obj\Debug\net8.0\AccesoDatos.csproj.AssemblyReference.cache
+C:\emi\Software\Triage\Triage\AccesoDatos\obj\Debug\net8.0\AccesoDatos.GeneratedMSBuildEditorConfig.editorconfig
+C:\emi\Software\Triage\Triage\AccesoDatos\obj\Debug\net8.0\AccesoDatos.AssemblyInfoInputs.cache
+C:\emi\Software\Triage\Triage\AccesoDatos\obj\Debug\net8.0\AccesoDatos.AssemblyInfo.cs
+C:\emi\Software\Triage\Triage\AccesoDatos\obj\Debug\net8.0\AccesoDatos.csproj.CoreCompileInputs.cache
+C:\emi\Software\Triage\Triage\AccesoDatos\obj\Debug\net8.0\AccesoDatos.dll
+C:\emi\Software\Triage\Triage\AccesoDatos\obj\Debug\net8.0\refint\AccesoDatos.dll
+C:\emi\Software\Triage\Triage\AccesoDatos\obj\Debug\net8.0\AccesoDatos.pdb
+C:\emi\Software\Triage\Triage\AccesoDatos\obj\Debug\net8.0\ref\AccesoDatos.dll
