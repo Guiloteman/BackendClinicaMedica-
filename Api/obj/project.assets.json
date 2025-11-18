@@ -2315,11 +2315,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\emi\\Software\\Triage\\Triage\\Api\\Api.csproj",
+      "projectUniqueName": "C:\\emi\\Software\\BackendClinicaMedica-\\Api\\Api.csproj",
       "projectName": "Api",
-      "projectPath": "C:\\emi\\Software\\Triage\\Triage\\Api\\Api.csproj",
+      "projectPath": "C:\\emi\\Software\\BackendClinicaMedica-\\Api\\Api.csproj",
       "packagesPath": "C:\\Users\\Programador-Movil\\.nuget\\packages\\",
-      "outputPath": "C:\\emi\\Software\\Triage\\Triage\\Api\\obj\\",
+      "outputPath": "C:\\emi\\Software\\BackendClinicaMedica-\\Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -2341,11 +2341,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\emi\\Software\\Triage\\Triage\\AccesoDatos\\AccesoDatos.csproj": {
-              "projectPath": "C:\\emi\\Software\\Triage\\Triage\\AccesoDatos\\AccesoDatos.csproj"
+            "C:\\emi\\Software\\BackendClinicaMedica-\\AccesoDatos\\AccesoDatos.csproj": {
+              "projectPath": "C:\\emi\\Software\\BackendClinicaMedica-\\AccesoDatos\\AccesoDatos.csproj"
             },
-            "C:\\emi\\Software\\Triage\\Triage\\Dominio\\Dominio.csproj": {
-              "projectPath": "C:\\emi\\Software\\Triage\\Triage\\Dominio\\Dominio.csproj"
+            "C:\\emi\\Software\\BackendClinicaMedica-\\Dominio\\Dominio.csproj": {
+              "projectPath": "C:\\emi\\Software\\BackendClinicaMedica-\\Dominio\\Dominio.csproj"
             }
           }
         }

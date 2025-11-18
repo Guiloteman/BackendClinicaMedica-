@@ -15,11 +15,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\emi\\Software\\Triage\\Triage\\Dominio\\Dominio.csproj",
+      "projectUniqueName": "C:\\emi\\Software\\BackendClinicaMedica-\\Dominio\\Dominio.csproj",
       "projectName": "Dominio",
-      "projectPath": "C:\\emi\\Software\\Triage\\Triage\\Dominio\\Dominio.csproj",
+      "projectPath": "C:\\emi\\Software\\BackendClinicaMedica-\\Dominio\\Dominio.csproj",
       "packagesPath": "C:\\Users\\Programador-Movil\\.nuget\\packages\\",
-      "outputPath": "C:\\emi\\Software\\Triage\\Triage\\Dominio\\obj\\",
+      "outputPath": "C:\\emi\\Software\\BackendClinicaMedica-\\Dominio\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "aaYkRj5XlXc=",
+  "dgSpecHash": "XodsvodNCN0=",
   "success": true,
-  "projectFilePath": "C:\\emi\\Software\\Triage\\Triage\\Api\\Api.csproj",
+  "projectFilePath": "C:\\emi\\Software\\BackendClinicaMedica-\\Api\\Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Programador-Movil\\.nuget\\packages\\azure.core\\1.47.1\\azure.core.1.47.1.nupkg.sha512",
     "C:\\Users\\Programador-Movil\\.nuget\\packages\\azure.identity\\1.14.2\\azure.identity.1.14.2.nupkg.sha512",

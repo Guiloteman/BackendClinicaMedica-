@@ -1,0 +1,5 @@
+# Archivos y carpetas de Visual Studio/dotnet que no deben subirse
+[Bb]in/
+[Oo]bj/
+.vs/  # <--- Esto ignora la carpeta que contiene el archivo bloqueado
+*.vsix

@@ -1,49 +1,61 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\emi\\Software\\Triage\\Triage\\",
+  "WorkspaceRootPath": "C:\\emi\\Software\\BackendClinicaMedica-\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CA2BA681-23E6-4443-8786-43AFD2D2D384}|Api\\Api.csproj|c:\\emi\\software\\triage\\triage\\api\\api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{CA2BA681-23E6-4443-8786-43AFD2D2D384}|Api\\Api.csproj|c:\\emi\\software\\backendclinicamedica-\\api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CA2BA681-23E6-4443-8786-43AFD2D2D384}|Api\\Api.csproj|solutionrelative:api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA2BA681-23E6-4443-8786-43AFD2D2D384}|Api\\Api.csproj|c:\\emi\\software\\backendclinicamedica-\\api\\controllers\\nivelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA2BA681-23E6-4443-8786-43AFD2D2D384}|Api\\Api.csproj|solutionrelative:api\\controllers\\nivelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA2BA681-23E6-4443-8786-43AFD2D2D384}|Api\\Api.csproj|c:\\emi\\software\\backendclinicamedica-\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA2BA681-23E6-4443-8786-43AFD2D2D384}|Api\\Api.csproj|solutionrelative:api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA2BA681-23E6-4443-8786-43AFD2D2D384}|Api\\Api.csproj|c:\\emi\\software\\backendclinicamedica-\\api\\api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{CA2BA681-23E6-4443-8786-43AFD2D2D384}|Api\\Api.csproj|solutionrelative:api\\api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E23F10C2-7B05-4EF2-AC4A-36C243C297C9}|AccesoDatos\\AccesoDatos.csproj|c:\\emi\\software\\triage\\triage\\accesodatos\\repositorios\\unitofwork\\unitofworkadapter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E23F10C2-7B05-4EF2-AC4A-36C243C297C9}|AccesoDatos\\AccesoDatos.csproj|c:\\emi\\software\\backendclinicamedica-\\accesodatos\\repositorios\\unitofwork\\unitofworkadapter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E23F10C2-7B05-4EF2-AC4A-36C243C297C9}|AccesoDatos\\AccesoDatos.csproj|solutionrelative:accesodatos\\repositorios\\unitofwork\\unitofworkadapter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E23F10C2-7B05-4EF2-AC4A-36C243C297C9}|AccesoDatos\\AccesoDatos.csproj|c:\\emi\\software\\triage\\triage\\accesodatos\\repositorios\\unitofwork\\unitofworkrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E23F10C2-7B05-4EF2-AC4A-36C243C297C9}|AccesoDatos\\AccesoDatos.csproj|c:\\emi\\software\\backendclinicamedica-\\accesodatos\\repositorios\\unitofwork\\unitofworkrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E23F10C2-7B05-4EF2-AC4A-36C243C297C9}|AccesoDatos\\AccesoDatos.csproj|solutionrelative:accesodatos\\repositorios\\unitofwork\\unitofworkrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E23F10C2-7B05-4EF2-AC4A-36C243C297C9}|AccesoDatos\\AccesoDatos.csproj|c:\\emi\\software\\triage\\triage\\accesodatos\\repositorios\\pacienterepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E23F10C2-7B05-4EF2-AC4A-36C243C297C9}|AccesoDatos\\AccesoDatos.csproj|c:\\emi\\software\\backendclinicamedica-\\accesodatos\\repositorios\\pacienterepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E23F10C2-7B05-4EF2-AC4A-36C243C297C9}|AccesoDatos\\AccesoDatos.csproj|solutionrelative:accesodatos\\repositorios\\pacienterepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E23F10C2-7B05-4EF2-AC4A-36C243C297C9}|AccesoDatos\\AccesoDatos.csproj|c:\\emi\\software\\triage\\triage\\accesodatos\\repositorios\\personarepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E23F10C2-7B05-4EF2-AC4A-36C243C297C9}|AccesoDatos\\AccesoDatos.csproj|c:\\emi\\software\\backendclinicamedica-\\accesodatos\\repositorios\\personarepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E23F10C2-7B05-4EF2-AC4A-36C243C297C9}|AccesoDatos\\AccesoDatos.csproj|solutionrelative:accesodatos\\repositorios\\personarepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E23F10C2-7B05-4EF2-AC4A-36C243C297C9}|AccesoDatos\\AccesoDatos.csproj|c:\\emi\\software\\triage\\triage\\accesodatos\\accesodatos.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{E23F10C2-7B05-4EF2-AC4A-36C243C297C9}|AccesoDatos\\AccesoDatos.csproj|c:\\emi\\software\\backendclinicamedica-\\accesodatos\\accesodatos.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{E23F10C2-7B05-4EF2-AC4A-36C243C297C9}|AccesoDatos\\AccesoDatos.csproj|solutionrelative:accesodatos\\accesodatos.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E23F10C2-7B05-4EF2-AC4A-36C243C297C9}|AccesoDatos\\AccesoDatos.csproj|c:\\emi\\software\\triage\\triage\\accesodatos\\contratos\\iunitofworkrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E23F10C2-7B05-4EF2-AC4A-36C243C297C9}|AccesoDatos\\AccesoDatos.csproj|c:\\emi\\software\\backendclinicamedica-\\accesodatos\\contratos\\iunitofworkrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E23F10C2-7B05-4EF2-AC4A-36C243C297C9}|AccesoDatos\\AccesoDatos.csproj|solutionrelative:accesodatos\\contratos\\iunitofworkrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E23F10C2-7B05-4EF2-AC4A-36C243C297C9}|AccesoDatos\\AccesoDatos.csproj|c:\\emi\\software\\triage\\triage\\accesodatos\\repositorios\\atencionrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E23F10C2-7B05-4EF2-AC4A-36C243C297C9}|AccesoDatos\\AccesoDatos.csproj|c:\\emi\\software\\backendclinicamedica-\\accesodatos\\repositorios\\atencionrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E23F10C2-7B05-4EF2-AC4A-36C243C297C9}|AccesoDatos\\AccesoDatos.csproj|solutionrelative:accesodatos\\repositorios\\atencionrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E23F10C2-7B05-4EF2-AC4A-36C243C297C9}|AccesoDatos\\AccesoDatos.csproj|c:\\emi\\software\\triage\\triage\\accesodatos\\entidades\\nivelemergencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E23F10C2-7B05-4EF2-AC4A-36C243C297C9}|AccesoDatos\\AccesoDatos.csproj|c:\\emi\\software\\backendclinicamedica-\\accesodatos\\entidades\\nivelemergencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E23F10C2-7B05-4EF2-AC4A-36C243C297C9}|AccesoDatos\\AccesoDatos.csproj|solutionrelative:accesodatos\\entidades\\nivelemergencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E23F10C2-7B05-4EF2-AC4A-36C243C297C9}|AccesoDatos\\AccesoDatos.csproj|c:\\emi\\software\\triage\\triage\\accesodatos\\entidades\\valueobjects\\tensionarterial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E23F10C2-7B05-4EF2-AC4A-36C243C297C9}|AccesoDatos\\AccesoDatos.csproj|c:\\emi\\software\\backendclinicamedica-\\accesodatos\\entidades\\valueobjects\\tensionarterial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E23F10C2-7B05-4EF2-AC4A-36C243C297C9}|AccesoDatos\\AccesoDatos.csproj|solutionrelative:accesodatos\\entidades\\valueobjects\\tensionarterial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E23F10C2-7B05-4EF2-AC4A-36C243C297C9}|AccesoDatos\\AccesoDatos.csproj|c:\\emi\\software\\triage\\triage\\accesodatos\\entidades\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E23F10C2-7B05-4EF2-AC4A-36C243C297C9}|AccesoDatos\\AccesoDatos.csproj|c:\\emi\\software\\backendclinicamedica-\\accesodatos\\entidades\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E23F10C2-7B05-4EF2-AC4A-36C243C297C9}|AccesoDatos\\AccesoDatos.csproj|solutionrelative:accesodatos\\entidades\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -54,15 +66,54 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NivelController.cs",
+              "DocumentMoniker": "C:\\emi\\Software\\BackendClinicaMedica-\\Api\\Controllers\\NivelController.cs",
+              "RelativeDocumentMoniker": "Api\\Controllers\\NivelController.cs",
+              "ToolTip": "C:\\emi\\Software\\BackendClinicaMedica-\\Api\\Controllers\\NivelController.cs",
+              "RelativeToolTip": "Api\\Controllers\\NivelController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAQwBUAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T21:22:52.844Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\emi\\Software\\BackendClinicaMedica-\\Api\\Program.cs",
+              "RelativeDocumentMoniker": "Api\\Program.cs",
+              "ToolTip": "C:\\emi\\Software\\BackendClinicaMedica-\\Api\\Program.cs",
+              "RelativeToolTip": "Api\\Program.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABgAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T20:44:53.353Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\emi\\Software\\BackendClinicaMedica-\\Api\\appsettings.json",
+              "RelativeDocumentMoniker": "Api\\appsettings.json",
+              "ToolTip": "C:\\emi\\Software\\BackendClinicaMedica-\\Api\\appsettings.json",
+              "RelativeToolTip": "Api\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAACoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-18T20:21:25.814Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Api.csproj",
-              "DocumentMoniker": "C:\\emi\\Software\\Triage\\Triage\\Api\\Api.csproj",
+              "DocumentMoniker": "C:\\emi\\Software\\BackendClinicaMedica-\\Api\\Api.csproj",
               "RelativeDocumentMoniker": "Api\\Api.csproj",
-              "ToolTip": "C:\\emi\\Software\\Triage\\Triage\\Api\\Api.csproj",
+              "ToolTip": "C:\\emi\\Software\\BackendClinicaMedica-\\Api\\Api.csproj",
               "RelativeToolTip": "Api\\Api.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
@@ -71,23 +122,47 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PacienteRepositorio.cs",
-              "DocumentMoniker": "C:\\emi\\Software\\Triage\\Triage\\AccesoDatos\\Repositorios\\PacienteRepositorio.cs",
-              "RelativeDocumentMoniker": "AccesoDatos\\Repositorios\\PacienteRepositorio.cs",
-              "ToolTip": "C:\\emi\\Software\\Triage\\Triage\\AccesoDatos\\Repositorios\\PacienteRepositorio.cs",
-              "RelativeToolTip": "AccesoDatos\\Repositorios\\PacienteRepositorio.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "PersonaRepositorio.cs",
+              "DocumentMoniker": "C:\\emi\\Software\\BackendClinicaMedica-\\AccesoDatos\\Repositorios\\PersonaRepositorio.cs",
+              "RelativeDocumentMoniker": "AccesoDatos\\Repositorios\\PersonaRepositorio.cs",
+              "ToolTip": "C:\\emi\\Software\\BackendClinicaMedica-\\AccesoDatos\\Repositorios\\PersonaRepositorio.cs",
+              "RelativeToolTip": "AccesoDatos\\Repositorios\\PersonaRepositorio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-16T22:45:48.272Z"
+              "WhenOpened": "2025-11-16T22:32:58.012Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "UnitOfWorkRepository.cs",
+              "DocumentMoniker": "C:\\emi\\Software\\BackendClinicaMedica-\\AccesoDatos\\Repositorios\\UnitOfWork\\UnitOfWorkRepository.cs",
+              "RelativeDocumentMoniker": "AccesoDatos\\Repositorios\\UnitOfWork\\UnitOfWorkRepository.cs",
+              "ToolTip": "C:\\emi\\Software\\BackendClinicaMedica-\\AccesoDatos\\Repositorios\\UnitOfWork\\UnitOfWorkRepository.cs",
+              "RelativeToolTip": "AccesoDatos\\Repositorios\\UnitOfWork\\UnitOfWorkRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T22:30:56.889Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UnitOfWorkAdapter.cs",
+              "DocumentMoniker": "C:\\emi\\Software\\BackendClinicaMedica-\\AccesoDatos\\Repositorios\\UnitOfWork\\UnitOfWorkAdapter.cs",
+              "RelativeDocumentMoniker": "AccesoDatos\\Repositorios\\UnitOfWork\\UnitOfWorkAdapter.cs",
+              "ToolTip": "C:\\emi\\Software\\BackendClinicaMedica-\\AccesoDatos\\Repositorios\\UnitOfWork\\UnitOfWorkAdapter.cs",
+              "RelativeToolTip": "AccesoDatos\\Repositorios\\UnitOfWork\\UnitOfWorkAdapter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T22:30:20.089Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "AccesoDatos.csproj",
-              "DocumentMoniker": "C:\\emi\\Software\\Triage\\Triage\\AccesoDatos\\AccesoDatos.csproj",
+              "DocumentMoniker": "C:\\emi\\Software\\BackendClinicaMedica-\\AccesoDatos\\AccesoDatos.csproj",
               "RelativeDocumentMoniker": "AccesoDatos\\AccesoDatos.csproj",
-              "ToolTip": "C:\\emi\\Software\\Triage\\Triage\\AccesoDatos\\AccesoDatos.csproj",
+              "ToolTip": "C:\\emi\\Software\\BackendClinicaMedica-\\AccesoDatos\\AccesoDatos.csproj",
               "RelativeToolTip": "AccesoDatos\\AccesoDatos.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
@@ -96,35 +171,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "PersonaRepositorio.cs",
-              "DocumentMoniker": "C:\\emi\\Software\\Triage\\Triage\\AccesoDatos\\Repositorios\\PersonaRepositorio.cs",
-              "RelativeDocumentMoniker": "AccesoDatos\\Repositorios\\PersonaRepositorio.cs",
-              "ToolTip": "C:\\emi\\Software\\Triage\\Triage\\AccesoDatos\\Repositorios\\PersonaRepositorio.cs",
-              "RelativeToolTip": "AccesoDatos\\Repositorios\\PersonaRepositorio.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-16T22:32:58.012Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UnitOfWorkRepository.cs",
-              "DocumentMoniker": "C:\\emi\\Software\\Triage\\Triage\\AccesoDatos\\Repositorios\\UnitOfWork\\UnitOfWorkRepository.cs",
-              "RelativeDocumentMoniker": "AccesoDatos\\Repositorios\\UnitOfWork\\UnitOfWorkRepository.cs",
-              "ToolTip": "C:\\emi\\Software\\Triage\\Triage\\AccesoDatos\\Repositorios\\UnitOfWork\\UnitOfWorkRepository.cs",
-              "RelativeToolTip": "AccesoDatos\\Repositorios\\UnitOfWork\\UnitOfWorkRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-16T22:30:56.889Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "PacienteRepositorio.cs",
+              "DocumentMoniker": "C:\\emi\\Software\\BackendClinicaMedica-\\AccesoDatos\\Repositorios\\PacienteRepositorio.cs",
+              "RelativeDocumentMoniker": "AccesoDatos\\Repositorios\\PacienteRepositorio.cs",
+              "ToolTip": "C:\\emi\\Software\\BackendClinicaMedica-\\AccesoDatos\\Repositorios\\PacienteRepositorio.cs",
+              "RelativeToolTip": "AccesoDatos\\Repositorios\\PacienteRepositorio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T22:45:48.272Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "IUnitOfWorkRepository.cs",
-              "DocumentMoniker": "C:\\emi\\Software\\Triage\\Triage\\AccesoDatos\\Contratos\\IUnitOfWorkRepository.cs",
+              "DocumentMoniker": "C:\\emi\\Software\\BackendClinicaMedica-\\AccesoDatos\\Contratos\\IUnitOfWorkRepository.cs",
               "RelativeDocumentMoniker": "AccesoDatos\\Contratos\\IUnitOfWorkRepository.cs",
-              "ToolTip": "C:\\emi\\Software\\Triage\\Triage\\AccesoDatos\\Contratos\\IUnitOfWorkRepository.cs",
+              "ToolTip": "C:\\emi\\Software\\BackendClinicaMedica-\\AccesoDatos\\Contratos\\IUnitOfWorkRepository.cs",
               "RelativeToolTip": "AccesoDatos\\Contratos\\IUnitOfWorkRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -132,23 +195,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UnitOfWorkAdapter.cs",
-              "DocumentMoniker": "C:\\emi\\Software\\Triage\\Triage\\AccesoDatos\\Repositorios\\UnitOfWork\\UnitOfWorkAdapter.cs",
-              "RelativeDocumentMoniker": "AccesoDatos\\Repositorios\\UnitOfWork\\UnitOfWorkAdapter.cs",
-              "ToolTip": "C:\\emi\\Software\\Triage\\Triage\\AccesoDatos\\Repositorios\\UnitOfWork\\UnitOfWorkAdapter.cs",
-              "RelativeToolTip": "AccesoDatos\\Repositorios\\UnitOfWork\\UnitOfWorkAdapter.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-16T22:30:20.089Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "AtencionRepositorio.cs",
-              "DocumentMoniker": "C:\\emi\\Software\\Triage\\Triage\\AccesoDatos\\Repositorios\\AtencionRepositorio.cs",
+              "DocumentMoniker": "C:\\emi\\Software\\BackendClinicaMedica-\\AccesoDatos\\Repositorios\\AtencionRepositorio.cs",
               "RelativeDocumentMoniker": "AccesoDatos\\Repositorios\\AtencionRepositorio.cs",
-              "ToolTip": "C:\\emi\\Software\\Triage\\Triage\\AccesoDatos\\Repositorios\\AtencionRepositorio.cs",
+              "ToolTip": "C:\\emi\\Software\\BackendClinicaMedica-\\AccesoDatos\\Repositorios\\AtencionRepositorio.cs",
               "RelativeToolTip": "AccesoDatos\\Repositorios\\AtencionRepositorio.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAALgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -156,11 +207,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "NivelEmergencia.cs",
-              "DocumentMoniker": "C:\\emi\\Software\\Triage\\Triage\\AccesoDatos\\Entidades\\NivelEmergencia.cs",
+              "DocumentMoniker": "C:\\emi\\Software\\BackendClinicaMedica-\\AccesoDatos\\Entidades\\NivelEmergencia.cs",
               "RelativeDocumentMoniker": "AccesoDatos\\Entidades\\NivelEmergencia.cs",
-              "ToolTip": "C:\\emi\\Software\\Triage\\Triage\\AccesoDatos\\Entidades\\NivelEmergencia.cs",
+              "ToolTip": "C:\\emi\\Software\\BackendClinicaMedica-\\AccesoDatos\\Entidades\\NivelEmergencia.cs",
               "RelativeToolTip": "AccesoDatos\\Entidades\\NivelEmergencia.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -168,11 +219,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "TensionArterial.cs",
-              "DocumentMoniker": "C:\\emi\\Software\\Triage\\Triage\\AccesoDatos\\Entidades\\ValueObjects\\TensionArterial.cs",
+              "DocumentMoniker": "C:\\emi\\Software\\BackendClinicaMedica-\\AccesoDatos\\Entidades\\ValueObjects\\TensionArterial.cs",
               "RelativeDocumentMoniker": "AccesoDatos\\Entidades\\ValueObjects\\TensionArterial.cs",
-              "ToolTip": "C:\\emi\\Software\\Triage\\Triage\\AccesoDatos\\Entidades\\ValueObjects\\TensionArterial.cs",
+              "ToolTip": "C:\\emi\\Software\\BackendClinicaMedica-\\AccesoDatos\\Entidades\\ValueObjects\\TensionArterial.cs",
               "RelativeToolTip": "AccesoDatos\\Entidades\\ValueObjects\\TensionArterial.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -180,11 +231,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "Persona.cs",
-              "DocumentMoniker": "C:\\emi\\Software\\Triage\\Triage\\AccesoDatos\\Entidades\\Persona.cs",
+              "DocumentMoniker": "C:\\emi\\Software\\BackendClinicaMedica-\\AccesoDatos\\Entidades\\Persona.cs",
               "RelativeDocumentMoniker": "AccesoDatos\\Entidades\\Persona.cs",
-              "ToolTip": "C:\\emi\\Software\\Triage\\Triage\\AccesoDatos\\Entidades\\Persona.cs",
+              "ToolTip": "C:\\emi\\Software\\BackendClinicaMedica-\\AccesoDatos\\Entidades\\Persona.cs",
               "RelativeToolTip": "AccesoDatos\\Entidades\\Persona.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

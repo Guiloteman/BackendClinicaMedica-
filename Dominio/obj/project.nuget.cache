@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cBqpcNApEJk=",
+  "dgSpecHash": "gSPplrrUQ3w=",
   "success": true,
-  "projectFilePath": "C:\\emi\\Software\\Triage\\Triage\\Dominio\\Dominio.csproj",
+  "projectFilePath": "C:\\emi\\Software\\BackendClinicaMedica-\\Dominio\\Dominio.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

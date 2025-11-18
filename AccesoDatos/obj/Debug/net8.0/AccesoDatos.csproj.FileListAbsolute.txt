@@ -15,3 +15,16 @@ C:\emi\Software\Triage\Triage\AccesoDatos\obj\Debug\net8.0\AccesoDatos.dll
 C:\emi\Software\Triage\Triage\AccesoDatos\obj\Debug\net8.0\refint\AccesoDatos.dll
 C:\emi\Software\Triage\Triage\AccesoDatos\obj\Debug\net8.0\AccesoDatos.pdb
 C:\emi\Software\Triage\Triage\AccesoDatos\obj\Debug\net8.0\ref\AccesoDatos.dll
+C:\emi\Software\BackendClinicaMedica-\AccesoDatos\bin\Debug\net8.0\AccesoDatos.deps.json
+C:\emi\Software\BackendClinicaMedica-\AccesoDatos\bin\Debug\net8.0\AccesoDatos.dll
+C:\emi\Software\BackendClinicaMedica-\AccesoDatos\bin\Debug\net8.0\AccesoDatos.pdb
+C:\emi\Software\BackendClinicaMedica-\AccesoDatos\obj\Debug\net8.0\AccesoDatos.csproj.AssemblyReference.cache
+C:\emi\Software\BackendClinicaMedica-\AccesoDatos\obj\Debug\net8.0\AccesoDatos.GeneratedMSBuildEditorConfig.editorconfig
+C:\emi\Software\BackendClinicaMedica-\AccesoDatos\obj\Debug\net8.0\AccesoDatos.AssemblyInfoInputs.cache
+C:\emi\Software\BackendClinicaMedica-\AccesoDatos\obj\Debug\net8.0\AccesoDatos.AssemblyInfo.cs
+C:\emi\Software\BackendClinicaMedica-\AccesoDatos\obj\Debug\net8.0\AccesoDatos.csproj.CoreCompileInputs.cache
+C:\emi\Software\BackendClinicaMedica-\AccesoDatos\obj\Debug\net8.0\AccesoDatos.sourcelink.json
+C:\emi\Software\BackendClinicaMedica-\AccesoDatos\obj\Debug\net8.0\AccesoDatos.dll
+C:\emi\Software\BackendClinicaMedica-\AccesoDatos\obj\Debug\net8.0\refint\AccesoDatos.dll
+C:\emi\Software\BackendClinicaMedica-\AccesoDatos\obj\Debug\net8.0\AccesoDatos.pdb
+C:\emi\Software\BackendClinicaMedica-\AccesoDatos\obj\Debug\net8.0\ref\AccesoDatos.dll

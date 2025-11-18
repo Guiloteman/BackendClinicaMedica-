@@ -1,10 +1,193 @@
 {
   "openapi": "3.0.1",
   "info": {
-    "title": "Api",
-    "version": "1.0"
+    "title": "Sistema de Urgencias Hospitalarias API",
+    "description": "API para el sistema de gestión de urgencias hospitalarias (IS2025-001 a IS2025-005)",
+    "contact": {
+      "name": "Equipo de Desarrollo",
+      "email": "dev@urgencias.com"
+    },
+    "version": "v1"
   },
   "paths": {
+    "/api/Nivel": {
+      "get": {
+        "tags": [
+          "Nivel"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Pacientes/cuil/{cuil}": {
+      "get": {
+        "tags": [
+          "Pacientes"
+        ],
+        "parameters": [
+          {
+            "name": "cuil",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Paciente"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Paciente"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Paciente"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not Found",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal Server Error"
+          }
+        }
+      }
+    },
+    "/api/Pacientes": {
+      "get": {
+        "tags": [
+          "Pacientes"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Paciente"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Paciente"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Paciente"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Pacientes"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CrearPacienteDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CrearPacienteDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CrearPacienteDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "201": {
+            "description": "Created",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Paciente"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Paciente"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Paciente"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad Request",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "/WeatherForecast": {
       "get": {
         "tags": [
@@ -47,6 +230,579 @@
   },
   "components": {
     "schemas": {
+      "Atencion": {
+        "required": [
+          "fechaAtencion",
+          "informe",
+          "ingresoId",
+          "medicoId"
+        ],
+        "type": "object",
+        "properties": {
+          "atencionId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "ingresoId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "ingreso": {
+            "$ref": "#/components/schemas/Ingreso"
+          },
+          "medicoId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "medico": {
+            "$ref": "#/components/schemas/Doctor"
+          },
+          "informe": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "fechaAtencion": {
+            "type": "string",
+            "format": "date-time"
+          }
+        },
+        "additionalProperties": false
+      },
+      "CrearPacienteDto": {
+        "type": "object",
+        "properties": {
+          "cuil": {
+            "type": "string",
+            "nullable": true
+          },
+          "apellido": {
+            "type": "string",
+            "nullable": true
+          },
+          "nombre": {
+            "type": "string",
+            "nullable": true
+          },
+          "email": {
+            "type": "string",
+            "nullable": true
+          },
+          "calle": {
+            "type": "string",
+            "nullable": true
+          },
+          "numero": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "localidad": {
+            "type": "string",
+            "nullable": true
+          },
+          "obraSocialId": {
+            "type": "string",
+            "format": "uuid",
+            "nullable": true
+          },
+          "numeroAfiliado": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Doctor": {
+        "required": [
+          "matricula"
+        ],
+        "type": "object",
+        "properties": {
+          "personaId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "persona": {
+            "$ref": "#/components/schemas/Persona"
+          },
+          "matricula": {
+            "maxLength": 50,
+            "minLength": 1,
+            "type": "string"
+          },
+          "atenciones": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Atencion"
+            },
+            "nullable": true
+          },
+          "usuarios": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Usuario"
+            },
+            "nullable": true
+          },
+          "nombreCompleto": {
+            "type": "string",
+            "nullable": true,
+            "readOnly": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Enfermera": {
+        "required": [
+          "matricula"
+        ],
+        "type": "object",
+        "properties": {
+          "personaId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "persona": {
+            "$ref": "#/components/schemas/Persona"
+          },
+          "matricula": {
+            "maxLength": 50,
+            "minLength": 1,
+            "type": "string"
+          },
+          "ingresos": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Ingreso"
+            },
+            "nullable": true
+          },
+          "usuarios": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Usuario"
+            },
+            "nullable": true
+          },
+          "nombreCompleto": {
+            "type": "string",
+            "nullable": true,
+            "readOnly": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "EstadoIngreso": {
+        "enum": [
+          0,
+          1,
+          2
+        ],
+        "type": "integer",
+        "format": "int32"
+      },
+      "Ingreso": {
+        "required": [
+          "enfermeraId",
+          "estado",
+          "fechaIngreso",
+          "frecuenciaCardiacaLpm",
+          "frecuenciaRespRpm",
+          "informe",
+          "nivelEmergenciaId",
+          "pacienteId",
+          "tensionDiastolicaMmHg",
+          "tensionSistolicaMmHg"
+        ],
+        "type": "object",
+        "properties": {
+          "ingresoId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "pacienteId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "paciente": {
+            "$ref": "#/components/schemas/Paciente"
+          },
+          "enfermeraId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "enfermera": {
+            "$ref": "#/components/schemas/Enfermera"
+          },
+          "fechaIngreso": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "informe": {
+            "maxLength": 1000,
+            "minLength": 1,
+            "type": "string"
+          },
+          "nivelEmergenciaId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "nivelEmergencia": {
+            "$ref": "#/components/schemas/NivelEmergencia"
+          },
+          "estado": {
+            "maxLength": 20,
+            "minLength": 1,
+            "type": "string"
+          },
+          "temperaturaC": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "frecuenciaCardiacaLpm": {
+            "type": "number",
+            "format": "double"
+          },
+          "frecuenciaRespRpm": {
+            "type": "number",
+            "format": "double"
+          },
+          "tensionSistolicaMmHg": {
+            "type": "number",
+            "format": "double"
+          },
+          "tensionDiastolicaMmHg": {
+            "type": "number",
+            "format": "double"
+          },
+          "atenciones": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Atencion"
+            },
+            "nullable": true
+          },
+          "estadoEnum": {
+            "$ref": "#/components/schemas/EstadoIngreso"
+          },
+          "tensionArterialFormato": {
+            "type": "string",
+            "nullable": true,
+            "readOnly": true
+          },
+          "estaPendiente": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "estaEnProceso": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "estaFinalizado": {
+            "type": "boolean",
+            "readOnly": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Nivel": {
+        "required": [
+          "color",
+          "nombre",
+          "prioridad",
+          "tiempoEsperaMinutos"
+        ],
+        "type": "object",
+        "properties": {
+          "nivelId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "nombre": {
+            "maxLength": 50,
+            "minLength": 1,
+            "type": "string"
+          },
+          "color": {
+            "maxLength": 20,
+            "minLength": 1,
+            "type": "string"
+          },
+          "tiempoEsperaMinutos": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "prioridad": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "nivelesEmergencia": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/NivelEmergencia"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "NivelEmergencia": {
+        "required": [
+          "nivelId",
+          "nombre"
+        ],
+        "type": "object",
+        "properties": {
+          "nivelEmergenciaId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "nombre": {
+            "maxLength": 50,
+            "minLength": 1,
+            "type": "string"
+          },
+          "nivelId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "nivel": {
+            "$ref": "#/components/schemas/Nivel"
+          },
+          "ingresos": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Ingreso"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ObraSocial": {
+        "required": [
+          "nombre"
+        ],
+        "type": "object",
+        "properties": {
+          "obraSocialId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "nombre": {
+            "maxLength": 120,
+            "minLength": 1,
+            "type": "string"
+          },
+          "pacientes": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Paciente"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Paciente": {
+        "required": [
+          "calle",
+          "localidad",
+          "numero"
+        ],
+        "type": "object",
+        "properties": {
+          "personaId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "persona": {
+            "$ref": "#/components/schemas/Persona"
+          },
+          "calle": {
+            "maxLength": 120,
+            "minLength": 1,
+            "type": "string"
+          },
+          "numero": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "localidad": {
+            "maxLength": 100,
+            "minLength": 1,
+            "type": "string"
+          },
+          "obraSocialId": {
+            "type": "string",
+            "format": "uuid",
+            "nullable": true
+          },
+          "obraSocial": {
+            "$ref": "#/components/schemas/ObraSocial"
+          },
+          "numeroAfiliado": {
+            "maxLength": 50,
+            "type": "string",
+            "nullable": true
+          },
+          "ingresos": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Ingreso"
+            },
+            "nullable": true
+          },
+          "tieneObraSocial": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "nombreCompleto": {
+            "type": "string",
+            "nullable": true,
+            "readOnly": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Persona": {
+        "required": [
+          "apellido",
+          "cuil",
+          "nombre"
+        ],
+        "type": "object",
+        "properties": {
+          "personaId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "cuil": {
+            "maxLength": 11,
+            "minLength": 1,
+            "type": "string"
+          },
+          "apellido": {
+            "maxLength": 100,
+            "minLength": 1,
+            "type": "string"
+          },
+          "nombre": {
+            "maxLength": 100,
+            "minLength": 1,
+            "type": "string"
+          },
+          "email": {
+            "maxLength": 320,
+            "type": "string",
+            "nullable": true
+          },
+          "nombreCompleto": {
+            "type": "string",
+            "nullable": true,
+            "readOnly": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ProblemDetails": {
+        "type": "object",
+        "properties": {
+          "type": {
+            "type": "string",
+            "nullable": true
+          },
+          "title": {
+            "type": "string",
+            "nullable": true
+          },
+          "status": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "detail": {
+            "type": "string",
+            "nullable": true
+          },
+          "instance": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": { }
+      },
+      "RolUsuario": {
+        "enum": [
+          0,
+          1
+        ],
+        "type": "integer",
+        "format": "int32"
+      },
+      "Usuario": {
+        "required": [
+          "creadoEn",
+          "email",
+          "passwordHash",
+          "rol"
+        ],
+        "type": "object",
+        "properties": {
+          "usuarioId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "email": {
+            "maxLength": 320,
+            "minLength": 1,
+            "type": "string",
+            "format": "email"
+          },
+          "passwordHash": {
+            "maxLength": 255,
+            "minLength": 1,
+            "type": "string"
+          },
+          "rol": {
+            "maxLength": 20,
+            "minLength": 1,
+            "type": "string"
+          },
+          "medicoId": {
+            "type": "string",
+            "format": "uuid",
+            "nullable": true
+          },
+          "medico": {
+            "$ref": "#/components/schemas/Doctor"
+          },
+          "enfermeraId": {
+            "type": "string",
+            "format": "uuid",
+            "nullable": true
+          },
+          "enfermera": {
+            "$ref": "#/components/schemas/Enfermera"
+          },
+          "creadoEn": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "rolEnum": {
+            "$ref": "#/components/schemas/RolUsuario"
+          },
+          "esMedico": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "esEnfermera": {
+            "type": "boolean",
+            "readOnly": true
+          }
+        },
+        "additionalProperties": false
+      },
       "WeatherForecast": {
         "type": "object",
         "properties": {
