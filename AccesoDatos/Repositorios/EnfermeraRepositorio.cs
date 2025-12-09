@@ -142,5 +142,10 @@ namespace AccesoDatos.Repositorios
             );
             return count > 0;
         }
+
+        public Task ObtenerTodosAsync()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

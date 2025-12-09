@@ -520,6 +520,9 @@
         }
       },
       "Dominio/1.0.0": {
+        "dependencies": {
+          "AccesoDatos": "1.0.0"
+        },
         "runtime": {
           "Dominio.dll": {
             "assemblyVersion": "1.0.0.0",

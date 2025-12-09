@@ -1,24 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\emi\\Software\\BackendClinicaMedica-\\AccesoDatos\\AccesoDatos.csproj": {}
+    "C:\\Users\\guile\\Downloads\\BackendClinicaMedica- - copia\\BackendClinicaMedica- - copia\\AccesoDatos\\AccesoDatos.csproj": {}
   },
   "projects": {
-    "C:\\emi\\Software\\BackendClinicaMedica-\\AccesoDatos\\AccesoDatos.csproj": {
+    "C:\\Users\\guile\\Downloads\\BackendClinicaMedica- - copia\\BackendClinicaMedica- - copia\\AccesoDatos\\AccesoDatos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\emi\\Software\\BackendClinicaMedica-\\AccesoDatos\\AccesoDatos.csproj",
+        "projectUniqueName": "C:\\Users\\guile\\Downloads\\BackendClinicaMedica- - copia\\BackendClinicaMedica- - copia\\AccesoDatos\\AccesoDatos.csproj",
         "projectName": "AccesoDatos",
-        "projectPath": "C:\\emi\\Software\\BackendClinicaMedica-\\AccesoDatos\\AccesoDatos.csproj",
-        "packagesPath": "C:\\Users\\Programador-Movil\\.nuget\\packages\\",
-        "outputPath": "C:\\emi\\Software\\BackendClinicaMedica-\\AccesoDatos\\obj\\",
+        "projectPath": "C:\\Users\\guile\\Downloads\\BackendClinicaMedica- - copia\\BackendClinicaMedica- - copia\\AccesoDatos\\AccesoDatos.csproj",
+        "packagesPath": "C:\\Users\\guile\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\guile\\Downloads\\BackendClinicaMedica- - copia\\BackendClinicaMedica- - copia\\AccesoDatos\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Programador-Movil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\guile\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -45,7 +44,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -80,7 +79,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

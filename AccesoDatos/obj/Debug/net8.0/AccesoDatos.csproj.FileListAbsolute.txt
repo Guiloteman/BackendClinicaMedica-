@@ -28,3 +28,29 @@ C:\emi\Software\BackendClinicaMedica-\AccesoDatos\obj\Debug\net8.0\AccesoDatos.d
 C:\emi\Software\BackendClinicaMedica-\AccesoDatos\obj\Debug\net8.0\refint\AccesoDatos.dll
 C:\emi\Software\BackendClinicaMedica-\AccesoDatos\obj\Debug\net8.0\AccesoDatos.pdb
 C:\emi\Software\BackendClinicaMedica-\AccesoDatos\obj\Debug\net8.0\ref\AccesoDatos.dll
+D:\GIT\BackendClinicaMedica-\BackendClinicaMedica-\AccesoDatos\bin\Debug\net8.0\AccesoDatos.deps.json
+D:\GIT\BackendClinicaMedica-\BackendClinicaMedica-\AccesoDatos\bin\Debug\net8.0\AccesoDatos.dll
+D:\GIT\BackendClinicaMedica-\BackendClinicaMedica-\AccesoDatos\bin\Debug\net8.0\AccesoDatos.pdb
+D:\GIT\BackendClinicaMedica-\BackendClinicaMedica-\AccesoDatos\obj\Debug\net8.0\AccesoDatos.csproj.AssemblyReference.cache
+D:\GIT\BackendClinicaMedica-\BackendClinicaMedica-\AccesoDatos\obj\Debug\net8.0\AccesoDatos.GeneratedMSBuildEditorConfig.editorconfig
+D:\GIT\BackendClinicaMedica-\BackendClinicaMedica-\AccesoDatos\obj\Debug\net8.0\AccesoDatos.AssemblyInfoInputs.cache
+D:\GIT\BackendClinicaMedica-\BackendClinicaMedica-\AccesoDatos\obj\Debug\net8.0\AccesoDatos.AssemblyInfo.cs
+D:\GIT\BackendClinicaMedica-\BackendClinicaMedica-\AccesoDatos\obj\Debug\net8.0\AccesoDatos.csproj.CoreCompileInputs.cache
+D:\GIT\BackendClinicaMedica-\BackendClinicaMedica-\AccesoDatos\obj\Debug\net8.0\AccesoDatos.sourcelink.json
+D:\GIT\BackendClinicaMedica-\BackendClinicaMedica-\AccesoDatos\obj\Debug\net8.0\AccesoDatos.dll
+D:\GIT\BackendClinicaMedica-\BackendClinicaMedica-\AccesoDatos\obj\Debug\net8.0\refint\AccesoDatos.dll
+D:\GIT\BackendClinicaMedica-\BackendClinicaMedica-\AccesoDatos\obj\Debug\net8.0\AccesoDatos.pdb
+D:\GIT\BackendClinicaMedica-\BackendClinicaMedica-\AccesoDatos\obj\Debug\net8.0\ref\AccesoDatos.dll
+C:\Users\guile\Downloads\BackendClinicaMedica- - copia\BackendClinicaMedica- - copia\AccesoDatos\bin\Debug\net8.0\AccesoDatos.deps.json
+C:\Users\guile\Downloads\BackendClinicaMedica- - copia\BackendClinicaMedica- - copia\AccesoDatos\bin\Debug\net8.0\AccesoDatos.dll
+C:\Users\guile\Downloads\BackendClinicaMedica- - copia\BackendClinicaMedica- - copia\AccesoDatos\bin\Debug\net8.0\AccesoDatos.pdb
+C:\Users\guile\Downloads\BackendClinicaMedica- - copia\BackendClinicaMedica- - copia\AccesoDatos\obj\Debug\net8.0\AccesoDatos.csproj.AssemblyReference.cache
+C:\Users\guile\Downloads\BackendClinicaMedica- - copia\BackendClinicaMedica- - copia\AccesoDatos\obj\Debug\net8.0\AccesoDatos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\guile\Downloads\BackendClinicaMedica- - copia\BackendClinicaMedica- - copia\AccesoDatos\obj\Debug\net8.0\AccesoDatos.AssemblyInfoInputs.cache
+C:\Users\guile\Downloads\BackendClinicaMedica- - copia\BackendClinicaMedica- - copia\AccesoDatos\obj\Debug\net8.0\AccesoDatos.AssemblyInfo.cs
+C:\Users\guile\Downloads\BackendClinicaMedica- - copia\BackendClinicaMedica- - copia\AccesoDatos\obj\Debug\net8.0\AccesoDatos.csproj.CoreCompileInputs.cache
+C:\Users\guile\Downloads\BackendClinicaMedica- - copia\BackendClinicaMedica- - copia\AccesoDatos\obj\Debug\net8.0\AccesoDatos.sourcelink.json
+C:\Users\guile\Downloads\BackendClinicaMedica- - copia\BackendClinicaMedica- - copia\AccesoDatos\obj\Debug\net8.0\AccesoDatos.dll
+C:\Users\guile\Downloads\BackendClinicaMedica- - copia\BackendClinicaMedica- - copia\AccesoDatos\obj\Debug\net8.0\refint\AccesoDatos.dll
+C:\Users\guile\Downloads\BackendClinicaMedica- - copia\BackendClinicaMedica- - copia\AccesoDatos\obj\Debug\net8.0\AccesoDatos.pdb
+C:\Users\guile\Downloads\BackendClinicaMedica- - copia\BackendClinicaMedica- - copia\AccesoDatos\obj\Debug\net8.0\ref\AccesoDatos.dll

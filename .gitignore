@@ -1,0 +1,39 @@
+# Visual Studio
+.vs/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build
+bin/
+obj/
+**/bin/
+**/obj/
+publish/
+
+# Test
+TestResults/
+*.trx
+
+# NuGet
+*.nupkg
+packages/
+
+# Rider/IDE
+.idea/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Logs, caches
+*.log
+*.cache
+
+# VS specific artifacts
+Api/obj/
+AccesoDatos/obj/
+Dominio/obj/
+TestDeModulos/obj/

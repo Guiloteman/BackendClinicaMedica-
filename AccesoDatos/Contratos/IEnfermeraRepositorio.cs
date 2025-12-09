@@ -12,5 +12,6 @@ namespace AccesoDatos.Contratos
         Task<int> ActualizarAsync(Enfermera enfermera);
         Task<bool> ExisteAsync(Guid personaId);
         Task<bool> ExisteMatriculaAsync(string matricula);
+        Task ObtenerTodosAsync();
     }
 }

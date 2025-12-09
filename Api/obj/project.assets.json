@@ -810,6 +810,9 @@
       "Dominio/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "AccesoDatos": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Dominio.dll": {}
         },
@@ -2308,25 +2311,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Programador-Movil\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\guile\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\emi\\Software\\BackendClinicaMedica-\\Api\\Api.csproj",
+      "projectUniqueName": "C:\\Users\\guile\\Downloads\\BackendClinicaMedica- - copia\\BackendClinicaMedica- - copia\\Api\\Api.csproj",
       "projectName": "Api",
-      "projectPath": "C:\\emi\\Software\\BackendClinicaMedica-\\Api\\Api.csproj",
-      "packagesPath": "C:\\Users\\Programador-Movil\\.nuget\\packages\\",
-      "outputPath": "C:\\emi\\Software\\BackendClinicaMedica-\\Api\\obj\\",
+      "projectPath": "C:\\Users\\guile\\Downloads\\BackendClinicaMedica- - copia\\BackendClinicaMedica- - copia\\Api\\Api.csproj",
+      "packagesPath": "C:\\Users\\guile\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\guile\\Downloads\\BackendClinicaMedica- - copia\\BackendClinicaMedica- - copia\\Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Programador-Movil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\guile\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -2341,11 +2342,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\emi\\Software\\BackendClinicaMedica-\\AccesoDatos\\AccesoDatos.csproj": {
-              "projectPath": "C:\\emi\\Software\\BackendClinicaMedica-\\AccesoDatos\\AccesoDatos.csproj"
+            "C:\\Users\\guile\\Downloads\\BackendClinicaMedica- - copia\\BackendClinicaMedica- - copia\\AccesoDatos\\AccesoDatos.csproj": {
+              "projectPath": "C:\\Users\\guile\\Downloads\\BackendClinicaMedica- - copia\\BackendClinicaMedica- - copia\\AccesoDatos\\AccesoDatos.csproj"
             },
-            "C:\\emi\\Software\\BackendClinicaMedica-\\Dominio\\Dominio.csproj": {
-              "projectPath": "C:\\emi\\Software\\BackendClinicaMedica-\\Dominio\\Dominio.csproj"
+            "C:\\Users\\guile\\Downloads\\BackendClinicaMedica- - copia\\BackendClinicaMedica- - copia\\Dominio\\Dominio.csproj": {
+              "projectPath": "C:\\Users\\guile\\Downloads\\BackendClinicaMedica- - copia\\BackendClinicaMedica- - copia\\Dominio\\Dominio.csproj"
             }
           }
         }
@@ -2360,7 +2361,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.200"
+      "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
       "net8.0": {
@@ -2390,7 +2391,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

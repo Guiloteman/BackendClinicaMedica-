@@ -144,9 +144,29 @@ namespace Api.Controllers
                 return StatusCode(500, new { mensaje = "Error interno del servidor" });
             }
         }
+
+        // EN Api.Controllers/PacientesController.cs
+
+        [HttpGet("{id:guid}")] // <-- DEBE ESTAR ESTA ANOTACIÓN
+        [ProducesResponseType(typeof(Paciente), StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        public async Task<ActionResult<Paciente>> ObtenerPorId(Guid id)
+        {
+            using var uow = _unitOfWork.Create(_environment.IsDevelopment());
+
+            // 1. Obtener el Paciente del repositorio
+            var paciente = await uow.Repositorios.PacienteRepositorio.ObtenerPorIdAsync(id);
+
+            if (paciente == null)
+            {
+                return NotFound(new { mensaje = $"Paciente con ID {id} no encontrado." });
+            }
+
+            // 2. Devolver el Paciente
+            return Ok(paciente);
+        }
     }
 
-    // DTO para crear paciente
     public record CrearPacienteDto(
         string Cuil,
         string Apellido,

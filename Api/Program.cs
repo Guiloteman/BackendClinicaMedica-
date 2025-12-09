@@ -1,6 +1,7 @@
 ﻿using AccesoDatos.Configuracion;
 using AccesoDatos.Contratos;
 using AccesoDatos.Repositorios;
+using Dominio.Servicios;
 using Microsoft.OpenApi.Models;
 
 
@@ -23,6 +24,9 @@ builder.Services.AddOptions<DatabaseSettings>()
 
 // Registrar UnitOfWork como Scoped (una instancia por request HTTP)
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
+
+// ==================== SERVICIOS DE DOMINIO ====================
+builder.Services.AddScoped<ITriageService, TriageService>();
 
 // ==================== CONFIGURACIÓN DE CONTROLLERS ====================
 
@@ -98,7 +102,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI(c =>
     {
         c.SwaggerEndpoint("/swagger/v1/swagger.json", "Urgencias API v1");
-        c.RoutePrefix = string.Empty; // Swagger en la raíz (/)
+        //c.RoutePrefix = string.Empty; // Swagger en la raíz (/)
     });
     
     app.Logger.LogInformation("🚀 Ejecutando en modo DESARROLLO");
