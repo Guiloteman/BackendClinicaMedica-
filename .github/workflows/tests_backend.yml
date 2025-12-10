@@ -1,0 +1,50 @@
+name: 🧪 CI - Ejecutar Pruebas de Backend (TESTS)
+
+# 1. Definición de cuándo se ejecuta el flujo de trabajo
+on:
+  # Se ejecuta ante cualquier Pull Request (PR) dirigido a la rama 'main'
+  pull_request:
+    branches: [ main ]
+  
+  # Permite la ejecución manual desde la pestaña 'Actions' de GitHub
+  workflow_dispatch:
+  
+  # (Opcional) Si quieres que también se ejecute en cada 'push' directo a 'main'
+  # push:
+  #   branches: [ main ]
+
+# Definición de los 'jobs' (tareas)
+jobs:
+  build_and_test:
+    # El trabajo se ejecutará en un entorno Linux (ubuntu-latest)
+    runs-on: ubuntu-latest
+
+    # Definición de las variables de entorno si fueran necesarias
+    # env:
+    #   MY_ENV_VAR: valor_a_usar
+      
+    steps:
+    # Paso 1: Checkout del código (obligatorio)
+    - name: 📦 Checkout del código
+      uses: actions/checkout@v4
+      
+    # Paso 2: Instalación del SDK de .NET
+    - name: ⚙️ Configurar .NET 8.x
+      uses: actions/setup-dotnet@v4
+      with:
+        # Asegúrate de que esta versión coincida con tu proyecto
+        dotnet-version: '8.x'
+
+    # Paso 3: Restaurar dependencias de NuGet
+    - name: 🔁 Restaurar dependencias de NuGet
+      run: dotnet restore
+      
+    # Paso 4: Construir la solución (opcional, pero buena práctica)
+    - name: 🏗️ Construir solución
+      run: dotnet build --no-restore
+
+    # Paso 5: Ejecutar los tests (¡El paso principal!)
+    - name: ✅ Ejecutar Pruebas (Tests)
+      # El comando 'dotnet test' buscará y ejecutará todos los proyectos de pruebas en la solución.
+      # Se incluye '--no-build' ya que construimos en el paso anterior.
+      run: dotnet test --no-build --verbosity normal
