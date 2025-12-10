@@ -1,0 +1,34 @@
+name: 🌐 CD - Deploy a Servidor IIS
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy-to-iis:
+    # 1. Ejecutar el Job en tu Servidor local/VM con el Runner
+    runs-on: self-hosted  
+    
+    steps:
+      - name: 📦 Checkout del código
+        uses: actions/checkout@v4
+
+      # ... (Pasos de Setup, Restore, Build, Publish se mantienen igual)
+      
+      - name: 📄 Publicar el artefacto (si no se hizo antes)
+        run: dotnet publish ./Api -c Release -o C:\Ruta\Del\Backend --no-build
+
+      # 2. Copiar archivos al directorio de IIS y reiniciar el App Pool
+      - name: 🚀 Desplegar y Reiniciar IIS
+        shell: powershell
+        run: |
+          # Detener el sitio web (opcional pero seguro)
+          # Stop-Website -Name "TuSitioWebIIS"
+          
+          # Copiar archivos publicados (la carpeta 'publish' ya existe)
+          # Esto depende de si usaste el runner para el publish o no.
+          # Copy-Item -Path './publish/*' -Destination 'C:\inetpub\wwwroot\TuBackend' -Recurse -Force
+          
+          # Reiniciar el Application Pool para que cargue los cambios
+          Restart-WebAppPool -Name "TuAppPoolBackend"
